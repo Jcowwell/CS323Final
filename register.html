@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Register</title>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row" style="margin-top: 25px;">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <div class="logo">
+                <h1 style="font-weight: 500;">Personal Blog</h1>
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 text-center">
+            <form method="post" action="SignUp.php" class="form-signin">
+                <h2 class="form-signin-heading">Register here:</h2>
+
+
+                <input name="email" type="text" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
+
+                <input name="password" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+
+                <input name="inputPasswordConfirm" type="password" id="inputPasswordConfirm" class="form-control" placeholder="Confirm password" required>
+
+                <h4>Please pick your blog title: </h4>
+                <label for="inputPasswordConfirm" class="sr-only">Please pick your blog title</label>
+                <input name="blog" type="text" id="blogTitle" class="form-control" placeholder="Blog Title" required>
+
+                <br>
+
+                <button class="btn btn-lg btn-primary btn-block" name="submit" value="Submit" type="submit">Register</button>
+                <a href="login.php"><button class="btn btn-lg btn-link btn-block" type="button">Sign in</button></a>
+            </form>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

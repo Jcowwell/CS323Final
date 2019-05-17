@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row" style="margin-top: 25px;">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="logo">
+                    <h1 style="font-weight: 500;">Personal Blog</h1>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 text-center">
+                <form method="post" action="SignIn.php" class="form-signin" >
+                    <h2 class="form-signin-heading">Sign in here:</h2>
+
+                    <input name="email" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+
+                    <input name="password" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+
+                    <br>
+
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                    <a href="register.html"><button class="btn btn-lg btn-link btn-block" type="button">Register</button></a>
+                </form>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+
+    </div>
+</body>
+</html>
